@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Clear Sans";
+  src: url("/fonts/clearsans/ClearSans.eot");
+  src: local("Clear Sans"), local("ClearSans"), url("/fonts/clearsans/ClearSans.eot?#iefix") format("embedded-opentype"), url("/fonts/clearsans/ClearSans.woff") format("woff"), url("/fonts/clearsans/ClearSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clear Sans";
+  src: url("/fonts/clearsans/ClearSans-Bold.eot");
+  src: local("Clear Sans Bold"), local("ClearSans-Bold"), url("/fonts/clearsans/ClearSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/clearsans/ClearSans-Bold.woff") format("woff"), url("/fonts/clearsans/ClearSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bl";
+  src: url("/fonts/proximanova/ProximaNova-Black.eot");
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("/fonts/proximanova/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("ProximaNova-Black.woff") format("woff"), url("ProximaNova-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+/*# sourceMappingURL=main.css.map */
