@@ -4,11 +4,242 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test-Prodject-2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!-- header -->
+    <header class="container">
+   <div class=" header-wrapper">
+        <div class="logo">
+          <svg width="67" height="62">
+            <use href="./img/pack.svg#icon-cmyk"></use>
+          </svg>
+          <div class="logo-wrapper">
+            <span class="logo-prime">PRINTE</span>
+            <span class="logo-second">Ваша типография</span>
+          </div>
+        </div>
+        <div class="worktime">
+          <p>
+            Качественная оперативная цифровая, широкоформатная и сувенирная
+            полиграфия!
+          </p>
+          <p>Работаем с 9 до 18, вс и сб выходные</p>
+        </div>
+        <div class="contacts">
+          <div class="contacts-items1">
+            <a href="#">
+              <svg class="user-area" width="13" height="12">
+                <use href="./img/pack.svg#icon-user"></use>
+              </svg>
+              Личный кабинет
+            </a>
+            <a href="mailto:maket@test-vertka.ua"> maket@test-vertka.ua </a>
+          </div>
+          <div class="contacts-item2">
+            <svg class="" width="11" height="20">
+              <use href="./img/pack.svg#icon-facebook"></use>
+            </svg>
+            <svg class="" width="20" height="20">
+              <use href="./img/pack.svg#icon-phone"></use>
+            </svg>
+            <a href="tel:0443454042">(044) 345-40-42</a>
+            <div class="contacts-modal">
+              <a href="tel:0994455418">
+                <img src="./img/vodafone.png" srcset="./img/vodafone@2x.png 2x" alt="vodafone" />
+                (099) 445-54-18</a>
+              <a href="tel:0964977803">
+                <img src="./img/kyivstar.png" srcset="./img/kyivstar@2x.png 2x" alt="kyivstar" />
+                (096) 497-78-03</a>
+              <a href="tel:0634351681">
+                <img src="./img/lifecell.png" srcset="./img/lifecell@2x.png 2x" alt="lifecell" />
+                (063) 435-16-81</a>
+            </div>
+          </div>
+        </div>
+        <div class="user-bucket">
+          <svg width="44" height="44">
+            <use href="./img/pack.svg#icon-shopping-cart"></use>
+          </svg>
+          <div>3</div>
+        </div>
+   </div>
+
+      <hr />
+
+      <nav class="site-nav">
+        <a href="#">Главная</a>
+        <a href="#">Продукция</a>
+        <a href="#">Доставка и оплата</a>
+        <a href="#">Новости</a>
+        <a href="#">База знаний</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+        <svg width="18" height="18">
+          <use href="./img/pack.svg#icon-search"></use>
+        </svg>
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="hero">
+    <div class="container">
+        <h1>Оперативная печать полиграфии от 1 дня!</h1>
+        <p>Доставка в любой город Украины</p>
+        <button class="modal">Сделать заказа</button>
+        </section>
+    </div>
+    <!-- products -->
+      <section class="container">
+        <h2>Продукция</h2>
+        <div class="products">
+          <div class="producrs-items">
+            <svg>
+              <use href="./img/pack.svg#icon-blank-page"></use>
+            </svg>
+            <h3>Офисная продукция</h3>
+            <ul>
+              <li>Визитка</li>
+              <li>Конверты</li>
+              <li>Папки</li>
+              <li>Книги</li>
+              <li>Блокноты</li>
+              <li>Фирминные бланки</li>
+            </ul>
+          </div>
+          <div class="producrs-items">
+              <svg>
+                <use href="./img/pack.svg#icon-road-map"></use>
+              </svg>
+              <h3>Рекламная продукция</h3>
+         <div class="promo-wrap">
+                <ul>
+                  <li>Листовки</li>
+                  <li>Флаера</li>
+                  <li>Буклеты</li>
+                  <li>Календари</li>
+                  <li>Блокноты</li>
+                </ul>
+                <ul>
+                  <li>Плакаты</li>
+                  <li>Баннеры</li>
+                  <li>Календари</li>
+                  <li>Наклейки</li>
+                </ul>
+         </div>
+          </div>
+          <div class="producrs-items">
+            <svg>
+              <use href="./img/pack.svg#icon-e-reader"></use>
+            </svg>
+            <h3>Для бизнеса</h3>
+              <ul>
+                <li>Каталоги</li>
+                <li>Журналы</li>
+                <li>Дисконтные карты</li>
+                <li>Бейджи</li>
+                <li>Гарантийные наклейки</li>
+              </ul>
+          </div>
+        </div>
+      </section>
+      <!-- about us -->
+      <section class="container">
+        <h2>О нас</h2>
+        <h3>Оперативная печать полиграфии от 1 дня!</h3>
+        <p>Перед долгим заплывом намажьтесь солнцезащитным кремом. Вода не спасает от вредного излучения, оно проникает и на
+        глубину 1 м.
+        Прежде чем отправиться на пляж, съешьте что-нибудь солененькое или выпейте чай с лимоном. Считается, что тем самым вы
+        предотвратите потерю важных минеральных веществ, которые покидают тело вместе с потом, а загар при этом ляжет ровнее.
+        Находясь на солнце, следует больше двигаться — плавать, делать гимнастику, играть в мяч и т.д. Лучше ходить босиком, чем
+        в тапочках. Не рекомендуется покрывать ногти лаком, пусть они отдохнут и получат солнечные лучи и воздух.</p>
+      </section>
+    <hr />
+    <!-- last mews -->
+    <section class="container">
+      <h2>Новости</h2>
+        <ul class="news-wrapper">
+          <li>
+            <p>14 марта 2018</p>
+            <p>Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</p>
+          </li>
+          <li>
+            <p>14 марта 2018</p>
+            <p>Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</p>
+          </li>
+          <li>
+            <p>14 марта 2018</p>
+            <p>Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</p>
+          </li>
+        </ul>
+        <a href="#">Смотреть все новости</a>
+    </section>
+    </main>
+    <!-- footer -->
+    <footer>
+
+      <div class="container"><div class="logo">
+        <svg width="67" height="62">
+          <use href="./img/pack.svg#icon-cmyk"></use>
+        </svg>
+        <span>PRINTE</span>
+        <span>Ваша типография</span>
+      
+        <div class="worktime-footer">
+          <p>
+            Качественная оперативная цифровая, широкоформатная и сувенирная
+            полиграфия!
+          </p>
+          <p>Работаем с 9 до 18, вс и сб выходные</p>
+        </div>
+        <nav class="site-nav">
+          <div>
+            <a href="#">Главная</a>
+            <a href="#">Продукция</a>
+            <a href="#">Доставка и оплата</a>
+          </div>
+          <div>
+            <a href="#">Новости</a>
+            <a href="#">База знаний</a>
+            <a href="#">О нас</a>
+          </div>
+      
+          <div>
+            <div class="contacts-item2">
+              <svg class="">
+                <use></use>
+              </svg>
+              <svg class="">
+                <use></use>
+              </svg>
+              <a href="tel:0443454042">(044) 345-40-42</a>
+              <div class="contacts-modal">
+                <a href="tel:0994455418">
+                  <img src="./img/vodafone.png" srcset="./img/vodafone@2x.png 2x" alt="vodafone" />
+                  (099) 445-54-18</a>
+                <a href="tel:0964977803">
+                  <img src="./img/kyivstar.png" srcset="./img/kyivstar@2x.png 2x" alt="kyivstar" />
+                  (096) 497-78-03</a>
+                <a href="tel:0634351681">
+                  <img src="./img/lifecell.png" srcset="./img/lifecell@2x.png 2x" alt="lifecell" />
+                  (063) 435-16-81</a>
+              </div>
+            </div>
+      
+            <a href="#">Контакты</a>
+      
+            <div>
+              <img src="./img/glyanec.png" srcset="./img/glyanec@2x.png 2x" alt="company logo">
+              <p>Глянец — Разработка сайтов</p>
+            </div>
+          </div>
+        </nav></div>
+    </footer>
   </body>
 </html>

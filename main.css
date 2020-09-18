@@ -1,24 +1,109 @@
-@font-face {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+/*@font-face {
   font-family: "Clear Sans";
-  src: url("/fonts/clearsans/ClearSans.eot");
-  src: local("Clear Sans"), local("ClearSans"), url("/fonts/clearsans/ClearSans.eot?#iefix") format("embedded-opentype"), url("/fonts/clearsans/ClearSans.woff") format("woff"), url("/fonts/clearsans/ClearSans.ttf") format("truetype");
+  src: url("./fonts/clearsans/ClearSans.eot");
+  src: local("Clear Sans"), local("ClearSans"),
+    url("./fonts/clearsans/ClearSans.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/clearsans/ClearSans.woff") format("woff"),
+    url("./fonts/clearsans/ClearSans.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Clear Sans";
-  src: url("/fonts/clearsans/ClearSans-Bold.eot");
-  src: local("Clear Sans Bold"), local("ClearSans-Bold"), url("/fonts/clearsans/ClearSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/clearsans/ClearSans-Bold.woff") format("woff"), url("/fonts/clearsans/ClearSans-Bold.ttf") format("truetype");
+  src: url("./fonts/clearsans/ClearSans-Bold.eot");
+  src: local("Clear Sans Bold"), local("ClearSans-Bold"),
+    url("./fonts/clearsans/ClearSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/clearsans/ClearSans-Bold.woff") format("woff"),
+    url("./fonts/clearsans/ClearSans-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Nova Bl";
-  src: url("/fonts/proximanova/ProximaNova-Black.eot");
-  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("/fonts/proximanova/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("ProximaNova-Black.woff") format("woff"), url("ProximaNova-Black.ttf") format("truetype");
+  src: url("./fonts/proximanova/ProximaNova-Black.eot");
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"),
+    url("./fonts/proximanova/ProximaNova-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/proximanova/ProximaNova-Black.woff") format("woff"),
+    url("./fonts/proximanova/ProximaNova-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+}
+*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 62px;
+}
+
+.logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 12px;
+}
+
+.logo-prime {
+  font-size: 32px;
+  font-weight: 900;
+  color: #1ab0ce;
+}
+
+.logo-second {
+  font-size: 15px;
+  font-weight: 900;
+  color: #3a4047;
 }
 /*# sourceMappingURL=main.css.map */
