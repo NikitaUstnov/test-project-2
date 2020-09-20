@@ -151,6 +151,14 @@
 .contacts-item2 {
   display: flex;
   justify-content: flex-end;
+
+  & a {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #3a4047;
+  }
 }
 
 .user-bucket {

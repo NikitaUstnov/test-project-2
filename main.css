@@ -246,6 +246,13 @@ h2 {
           justify-content: flex-end;
 }
 
+.contacts-item2 a {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #3a4047;
+}
+
 .user-bucket {
   position: relative;
   display: -webkit-box;
@@ -361,6 +368,7 @@ h2 {
 }
 
 .hero {
+  position: relative;
   background-image: url("../../img/Rectangle.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -428,6 +436,43 @@ h2 {
   cursor: pointer;
 }
 
+.callme-hero {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translate(-70%, 50%);
+          transform: translate(-70%, 50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 108px;
+  height: 108px;
+  background: #1ab0ce;
+  -webkit-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+  border: solid #1ab0ce;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.callme-hero p {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 9px;
+  color: #ffffff;
+}
+
 .products {
   display: -ms-grid;
   display: grid;
@@ -439,7 +484,7 @@ h2 {
 
 .producrs-items {
   padding-top: 25px;
-  padding-left: 39px;
+  padding-left: 29px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,5 +520,244 @@ h2 {
 
 .prod-list2 {
   margin-left: 55px;
+}
+
+.about-us-section h3 {
+  margin-top: 13px;
+  margin-bottom: 34px;
+  font-size: 24px;
+  text-align: center;
+  color: #3a4047;
+}
+
+.about-us-section p {
+  margin-bottom: 38px;
+  font-size: 14px;
+  line-height: 1.15em;
+  color: #3a4047;
+}
+
+.news-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.news-wrapper li {
+  padding: 30px 18px;
+}
+
+.news-wrapper li:hover {
+  background: #ffffff;
+  -webkit-box-shadow: 0px -1px 0px #1ab0ce, 0px 14px 24px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px -1px 0px #1ab0ce, 0px 14px 24px rgba(0, 0, 0, 0.05);
+}
+
+.date {
+  margin-bottom: 13px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #bec7d1;
+}
+
+.news-descr {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3a4047;
+}
+
+.news-wrapper li:hover .news-descr {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #1ab0ce;
+}
+
+.all-news {
+  padding: 6px 21px;
+  background: #ffffff;
+  border: 1px solid #1ab0ce;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  color: #1ab0ce;
+  margin-top: 51px;
+  margin-bottom: 49px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.last-news-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  position: relative;
+  padding: 30px 0;
+  background: #f7f7f7;
+  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3a4047;
+}
+
+.logo-copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.worktime-footer {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.worktime-footer-descr {
+  font-size: 14px;
+  line-height: 21px;
+  color: #3a4047;
+}
+
+.footer-time {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #3a4047;
+}
+
+.site-nav-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.5em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #3a4047;
+}
+
+.footer-nav-list1 {
+  margin-right: 67px;
+}
+
+.footer-nav-list1 li {
+  margin-bottom: 18px;
+}
+
+.footer-nav-list1 li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-nav-list2 li {
+  margin-bottom: 18px;
+}
+
+.footer-nav-list2 li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: auto;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #3a4047;
+}
+
+.contats-from-nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.callme {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 108px;
+  height: 108px;
+  background: #1ab0ce;
+  -webkit-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+  border: solid #1ab0ce;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.callme p {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 9px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
