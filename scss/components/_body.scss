@@ -2,7 +2,10 @@ body {
   // font-family: "Clear Sans";
   font-family: "Open Sans", sans-serif;
 }
-
+hr {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 1170px;
   margin-right: auto;
@@ -34,4 +37,13 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  margin-top: 30px;
+
+  font-size: 36px;
+  text-align: center;
+
+  color: #3a4047;
 }

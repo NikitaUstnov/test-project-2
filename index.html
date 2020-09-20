@@ -26,11 +26,11 @@
           </div>
         </div>
         <div class="worktime">
-          <p>
+          <p class="worktime-item1">
             Качественная оперативная цифровая, широкоформатная и сувенирная
             полиграфия!
           </p>
-          <p>Работаем с 9 до 18, вс и сб выходные</p>
+          <p class="worktime-item2">Работаем с 9 до 18, вс и сб выходные</p>
         </div>
         <div class="contacts">
           <div class="contacts-items1">
@@ -43,109 +43,127 @@
             <a href="mailto:maket@test-vertka.ua"> maket@test-vertka.ua </a>
           </div>
           <div class="contacts-item2">
-            <svg class="" width="11" height="20">
+            <svg class="facebook-icon" width="11" height="20">
               <use href="./img/pack.svg#icon-facebook"></use>
             </svg>
-            <svg class="" width="20" height="20">
+            <svg class="tel-icon" width="20" height="20">
               <use href="./img/pack.svg#icon-phone"></use>
             </svg>
             <a href="tel:0443454042">(044) 345-40-42</a>
-            <div class="contacts-modal">
-              <a href="tel:0994455418">
+            <div class="contacts-modal" data-menu>
+              <div class="romb"></div>
+              <a class="cont-links" href="tel:0994455418">
                 <img src="./img/vodafone.png" srcset="./img/vodafone@2x.png 2x" alt="vodafone" />
                 (099) 445-54-18</a>
-              <a href="tel:0964977803">
+              <a class="cont-links" href="tel:0964977803">
                 <img src="./img/kyivstar.png" srcset="./img/kyivstar@2x.png 2x" alt="kyivstar" />
                 (096) 497-78-03</a>
-              <a href="tel:0634351681">
+              <a class="cont-links" href="tel:0634351681">
                 <img src="./img/lifecell.png" srcset="./img/lifecell@2x.png 2x" alt="lifecell" />
                 (063) 435-16-81</a>
             </div>
+            <button class="open-modal" data-menu-button>
+              <svg width="9" height="9">
+                <use href="./img/pack.svg#icon-pacman">
+                </use>
+              </svg>
+            </button>
+            
           </div>
         </div>
         <div class="user-bucket">
           <svg width="44" height="44">
             <use href="./img/pack.svg#icon-shopping-cart"></use>
           </svg>
-          <div>3</div>
+          <div class="num">3</div>
         </div>
    </div>
+  </header>
+
 
       <hr />
 
-      <nav class="site-nav">
-        <a href="#">Главная</a>
-        <a href="#">Продукция</a>
-        <a href="#">Доставка и оплата</a>
-        <a href="#">Новости</a>
-        <a href="#">База знаний</a>
-        <a href="#">О нас</a>
-        <a href="#">Контакты</a>
-        <svg width="18" height="18">
-          <use href="./img/pack.svg#icon-search"></use>
-        </svg>
-      </nav>
-    </header>
+    <nav class="container site-nav">
+      <a href="#">Главная</a>
+      <a href="#">Продукция</a>
+      <a href="#">Доставка и оплата</a>
+      <a href="#">Новости</a>
+      <a href="#">База знаний</a>
+      <a href="#">О нас</a>
+      <a href="#">Контакты</a>
+      <svg width="18" height="18">
+        <use href="./img/pack.svg#icon-search"></use>
+      </svg>
+    </nav>
     <main>
       <!-- hero -->
       <section class="hero">
     <div class="container">
-        <h1>Оперативная печать полиграфии от 1 дня!</h1>
-        <p>Доставка в любой город Украины</p>
-        <button class="modal">Сделать заказа</button>
+        <div class="hero-items">
+          <h1 class="hero-title">Оперативная печать полиграфии от 1 дня!</h1>
+          <p class="hero-descr">Доставка в любой город Украины</p>
+          <button class="modal">Сделать заказа</button>
+        </div>
+        </div>
         </section>
-    </div>
+    
     <!-- products -->
       <section class="container">
         <h2>Продукция</h2>
         <div class="products">
           <div class="producrs-items">
-            <svg>
+            <svg width="52" height="62">
               <use href="./img/pack.svg#icon-blank-page"></use>
             </svg>
-            <h3>Офисная продукция</h3>
-            <ul>
-              <li>Визитка</li>
-              <li>Конверты</li>
-              <li>Папки</li>
-              <li>Книги</li>
-              <li>Блокноты</li>
-              <li>Фирминные бланки</li>
-            </ul>
+           <div class="prod-items-title">
+              <h3>Офисная продукция</h3>
+              <ul class="prod-list">
+                <li>Визитка</li>
+                <li>Конверты</li>
+                <li>Папки</li>
+                <li>Книги</li>
+                <li>Блокноты</li>
+                <li>Фирминные бланки</li>
+              </ul>
+           </div>
           </div>
           <div class="producrs-items">
-              <svg>
+              <svg width="62" height="62">
                 <use href="./img/pack.svg#icon-road-map"></use>
               </svg>
+              <div class="prod-items-title">
               <h3>Рекламная продукция</h3>
          <div class="promo-wrap">
-                <ul>
+                <ul class="prod-list">
                   <li>Листовки</li>
                   <li>Флаера</li>
                   <li>Буклеты</li>
                   <li>Календари</li>
                   <li>Блокноты</li>
                 </ul>
-                <ul>
+                <ul class="prod-list prod-list2">
                   <li>Плакаты</li>
                   <li>Баннеры</li>
                   <li>Календари</li>
                   <li>Наклейки</li>
                 </ul>
          </div>
+         </div>
           </div>
           <div class="producrs-items">
-            <svg>
+            <svg width="45" height="62">
               <use href="./img/pack.svg#icon-e-reader"></use>
             </svg>
+            <div class="prod-items-title">
             <h3>Для бизнеса</h3>
-              <ul>
+              <ul class="prod-list">
                 <li>Каталоги</li>
                 <li>Журналы</li>
                 <li>Дисконтные карты</li>
                 <li>Бейджи</li>
                 <li>Гарантийные наклейки</li>
               </ul>
+              </div>
           </div>
         </div>
       </section>
@@ -241,5 +259,6 @@
           </div>
         </nav></div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
