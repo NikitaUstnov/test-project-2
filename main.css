@@ -430,7 +430,7 @@ h2 {
   cursor: pointer;
 }
 
-.callme-hero p {
+.callme-hero span {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -721,7 +721,7 @@ footer {
   cursor: pointer;
 }
 
-.callme p {
+.callme span {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
