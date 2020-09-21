@@ -369,7 +369,7 @@ h2 {
 
 .hero {
   position: relative;
-  background-image: url("../img/Rectangle.jpg");
+  background-image: url("./img/Rectangle.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,7 +378,7 @@ h2 {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero .hero {
-    background-image: url("../img/Rectangle@2x.jpg");
+    background-image: url("./img/Rectangle@2x.jpg");
   }
 }
 
