@@ -44,7 +44,9 @@ footer {
 }
 .site-nav-footer {
   display: flex;
+}
 
+.nav-footer-list-item {
   font-size: 14px;
   line-height: 1.5em;
   text-decoration-line: underline;
@@ -129,4 +131,51 @@ footer {
 
     color: #ffffff;
   }
+}
+// МОДАЛКА ФУТРЕА
+.open-modal-footer {
+  border-radius: 100%;
+  border: none;
+  outline: none;
+
+  padding: 0;
+  fill: #3a4047;
+  cursor: pointer;
+
+  margin-left: 6px;
+
+  & svg {
+    transform: rotate(180deg);
+  }
+
+  & svg:hover {
+    fill: #000;
+  }
+}
+.contacts-modal-footer {
+  position: absolute;
+  display: none;
+  padding: 31px 27px;
+  z-index: 1;
+  background-color: #fff;
+  transform: translate(15px, -115%);
+  filter: drop-shadow(0px 4px 45px rgba(0, 0, 0, 0.15));
+}
+
+.is-open {
+  display: block;
+}
+
+.romb-footer {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  z-index: 2;
+
+  background-color: #fff;
+
+  bottom: 0;
+  right: 0;
+
+  transform: translateX(10%) rotate(45deg) translateY(70%);
 }

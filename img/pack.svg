@@ -59,8 +59,7 @@
 <path fill="#174461" style="fill: var(--color21, #174461)" d="M24.366 16.028v10.009l4.601 1.308v-10.010l-4.601-1.308z"></path>
 </symbol>
 <symbol id="icon-search" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M13.6 25.6c6.627 0 12-5.373 12-12s-5.373-12-12-12c-6.627 0-12 5.373-12 12s5.373 12 12 12z"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M30.4 30.4l-8.32-8.32"></path>
+<path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
 </symbol>
 <symbol id="icon-shopping-cart" viewBox="0 0 32 32">
 <path fill="none" stroke="#1ab0ce" style="stroke: var(--color22, #1ab0ce)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M10.667 30.667c1.473 0 2.667-1.194 2.667-2.667s-1.194-2.667-2.667-2.667c-1.473 0-2.667 1.194-2.667 2.667s1.194 2.667 2.667 2.667z"></path>
@@ -70,6 +69,10 @@
 <symbol id="icon-user" viewBox="0 0 30 32">
 <path fill="none" stroke="#1ab0ce" style="stroke: var(--color22, #1ab0ce)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1333" d="M26.785 29.867v-3.082c0-3.404-2.759-6.163-6.163-6.163h-12.326c-3.404 0-6.163 2.759-6.163 6.163v3.082"></path>
 <path fill="none" stroke="#1ab0ce" style="stroke: var(--color22, #1ab0ce)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1333" d="M14.459 14.459c3.404 0 6.163-2.759 6.163-6.163s-2.759-6.163-6.163-6.163c-3.404 0-6.163 2.759-6.163 6.163s2.759 6.163 6.163 6.163z"></path>
+</symbol>
+<symbol id="icon-circle-down" viewBox="0 0 32 32">
+<path d="M32 16c0-8.837-7.163-16-16-16s-16 7.163-16 16 7.163 16 16 16 16-7.163 16-16zM3 16c0-7.18 5.82-13 13-13s13 5.82 13 13-5.82 13-13 13-13-5.82-13-13z"></path>
+<path d="M9.914 11.086l-2.829 2.829 8.914 8.914 8.914-8.914-2.828-2.828-6.086 6.086z"></path>
 </symbol>
 </defs>
 </svg>

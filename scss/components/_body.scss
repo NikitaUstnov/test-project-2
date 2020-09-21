@@ -1,10 +1,13 @@
 body {
-  // font-family: "Clear Sans";
+  // font-family: "Clear Sans", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
 hr {
   margin: 0;
   padding: 0;
+
+  height: 1px;
+  color: #e8edf2;
 }
 .container {
   width: 1170px;

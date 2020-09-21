@@ -195,19 +195,18 @@
 }
 
 .open-modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 100%;
   border: none;
   outline: none;
-  background-color: #ededed;
+
+  padding: 0;
+  fill: #3a4047;
   cursor: pointer;
 
   margin-left: 6px;
 
   & svg:hover {
-    fill: yellow;
+    fill: #000;
   }
 }
 

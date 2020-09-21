@@ -1,39 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
-/*@font-face {
-  font-family: "Clear Sans";
-  src: url("./fonts/clearsans/ClearSans.eot");
-  src: local("Clear Sans"), local("ClearSans"),
-    url("./fonts/clearsans/ClearSans.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/clearsans/ClearSans.woff") format("woff"),
-    url("./fonts/clearsans/ClearSans.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Clear Sans";
-  src: url("./fonts/clearsans/ClearSans-Bold.eot");
-  src: local("Clear Sans Bold"), local("ClearSans-Bold"),
-    url("./fonts/clearsans/ClearSans-Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/clearsans/ClearSans-Bold.woff") format("woff"),
-    url("./fonts/clearsans/ClearSans-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Proxima Nova Bl";
-  src: url("./fonts/proximanova/ProximaNova-Black.eot");
-  src: local("Proxima Nova Black"), local("ProximaNova-Black"),
-    url("./fonts/proximanova/ProximaNova-Black.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/proximanova/ProximaNova-Black.woff") format("woff"),
-    url("./fonts/proximanova/ProximaNova-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-*/
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -41,6 +6,8 @@ body {
 hr {
   margin: 0;
   padding: 0;
+  height: 1px;
+  color: #e8edf2;
 }
 
 .container {
@@ -292,25 +259,17 @@ h2 {
 }
 
 .open-modal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   border-radius: 100%;
   border: none;
   outline: none;
-  background-color: #ededed;
+  padding: 0;
+  fill: #3a4047;
   cursor: pointer;
   margin-left: 6px;
 }
 
 .open-modal svg:hover {
-  fill: yellow;
+  fill: #000;
 }
 
 .site-nav {
@@ -666,6 +625,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nav-footer-list-item {
   font-size: 14px;
   line-height: 1.5em;
   -webkit-text-decoration-line: underline;
@@ -765,5 +727,52 @@ footer {
   text-align: center;
   margin-top: 9px;
   color: #ffffff;
+}
+
+.open-modal-footer {
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  padding: 0;
+  fill: #3a4047;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.open-modal-footer svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.open-modal-footer svg:hover {
+  fill: #000;
+}
+
+.contacts-modal-footer {
+  position: absolute;
+  display: none;
+  padding: 31px 27px;
+  z-index: 1;
+  background-color: #fff;
+  -webkit-transform: translate(15px, -115%);
+          transform: translate(15px, -115%);
+  -webkit-filter: drop-shadow(0px 4px 45px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 45px rgba(0, 0, 0, 0.15));
+}
+
+.is-open {
+  display: block;
+}
+
+.romb-footer {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  z-index: 2;
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateX(10%) rotate(45deg) translateY(70%);
+          transform: translateX(10%) rotate(45deg) translateY(70%);
 }
 /*# sourceMappingURL=main.css.map */
